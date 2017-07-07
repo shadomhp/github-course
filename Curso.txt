@@ -4,4 +4,8 @@ git add curso.txt
 
 git commit -m "Adicionado Curso.txt"
 
-git log
+git log - Log dos commits mostra a Hash de cada commit
+
+git shortlog - Log dos commits por ordem alfabetica e resumido
+git shortlog -sn - nr de commits e quem commitou
+git log --graph - Mostra em forma grafica os comandos
