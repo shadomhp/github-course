@@ -2,3 +2,6 @@ git status - Verifica o status dos arquivos
 
 git add curso.txt
 
+git commit -m "Adicionado Curso.txt"
+
+git log
