@@ -1,0 +1,4 @@
+git status - Verifica o status dos arquivos
+
+git add curso.txt
+
