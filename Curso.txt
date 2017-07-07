@@ -42,5 +42,8 @@ git push -u origin master
 git remote  --> Mostra que já tem uma ligação ao repositorio remoto apelidado Origins
 git remote -v   --> Diz mais informações sobre
 
-git push -u origin master   --> envia todas as alterações
+git push -u origin master   --> envia todas as alterações (-u trackeia o diretorio sendo necessário apenas utilizar git push -u da próxima vez)
+
+Subir novas alterações ao Remote
+
 
