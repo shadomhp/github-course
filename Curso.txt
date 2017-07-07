@@ -26,4 +26,21 @@ git reset --hard  <hash>  --> Pegar as modificações e volta para o unmodified
 * Sempre colocar o hash do commit que eu quero voltar.
 Somente se não for enviado para o repositorio remoto.
 
+Ligação ao Repositorio remoto
+Criação Novo Repositorio
+echo "# github-course" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/shadomhp/github-course.git
+git push -u origin master
+
+Fazer a ligação do repositorio já criado para o remoto
+git remote add origin https://github.com/shadomhp/github-course.git
+git push -u origin master
+
+git remote  --> Mostra que já tem uma ligação ao repositorio remoto apelidado Origins
+git remote -v   --> Diz mais informações sobre
+
+git push -u origin master   --> envia todas as alterações
 
