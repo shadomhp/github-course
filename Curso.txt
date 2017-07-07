@@ -13,3 +13,9 @@ git log --graph - Mostra em forma grafica os comandos
 git diff - o que foi modificado nos arquivos antes de commitar
 git diff --name-only --> Somente o nome dos arquivos modificados
 git commit -am "Edit" --> Qdo já existe o arquivo
+
+
+Reset dos erros
+git checkout Curso.txt - feito antes do Add
+
+git reset HEAD Curso.txt
