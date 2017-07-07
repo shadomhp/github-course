@@ -9,3 +9,7 @@ git log - Log dos commits mostra a Hash de cada commit
 git shortlog - Log dos commits por ordem alfabetica e resumido
 git shortlog -sn - nr de commits e quem commitou
 git log --graph - Mostra em forma grafica os comandos
+
+git diff - o que foi modificado nos arquivos antes de commitar
+git diff --name-only --> Somente o nome dos arquivos modificados
+git commit -am "Edit" --> Qdo já existe o arquivo
